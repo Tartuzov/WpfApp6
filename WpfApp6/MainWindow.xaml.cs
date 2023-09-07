@@ -31,12 +31,14 @@ namespace WpfApp6
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NowEx.Clear();
+            NowEx.Text = "0";
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             AllEx.Clear();
             NowEx.Clear();
+            NowEx.Text = "0";
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
